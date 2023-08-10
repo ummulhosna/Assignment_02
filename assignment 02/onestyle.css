@@ -1,0 +1,68 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; 
+    background-image: linear-gradient(to bottom, #336699, #99ccff); 
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #6eb6ea;
+    color: #d2bfbf;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);  
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+
+.personal-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+ 
+.qualification {
+    margin-bottom: 10px;
+}
+
+ 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #ddd;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
